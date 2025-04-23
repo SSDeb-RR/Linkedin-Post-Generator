@@ -1,9 +1,9 @@
-# project-genai-post-generator
-This tool will analyze posts of a LinkedIn influencer and help them create the new posts based on the writing style in their old posts  
+# AI based Linkedin Post Generator
+Fine-tuned LLama 3.3 (7B) versatile model using Langchain and Groq Console on Linkedin Posts data of an influencer. Used Chain-of-Thought Prompting to design better Prompt Templates and extract metadata from raw post data. Used Streamllit to create a basic UI front-end for using the tool. 
 
 <img src="resources/tool.jpg"/>
 
-Let's say Mohan is a LinkedIn influencer and he needs help in writing his future posts. He can feed his past LinkedIn posts to this tool and it will extract key topics. Then he can select the topic, length, language etc. and use Generate button to create a new post that will match his writing style. 
+Let's say Akshat is a LinkedIn influencer and he needs help in writing his future posts. He can feed his past LinkedIn posts to this tool and it will extract key topics. Then he can select the topic, length, language etc. and use Generate button to create a new post that will match his writing style. 
 
 ## Technical Architecture
 <img src="resources/architecture.jpg"/>
@@ -21,8 +21,3 @@ Let's say Mohan is a LinkedIn influencer and he needs help in writing his future
    ```commandline
    streamlit run main.py
    ```
-Copyright (C) Codebasics Inc. All rights reserved.
-
-
-**Additional Terms:**
-This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
